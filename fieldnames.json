@@ -1,13 +1,19 @@
 {
-    "H": {
-        "est": "Vesinik",
-        "eng": "Hydrogen",
+    "atomic": {
+        "est": "Aatomnumber",
+        "eng": "Atomic number",
         "rus": "",
 		"lat": ""
     },
-    "He": {
-        "est": "Heelium",
-        "eng": "Helium",
+    "symbol": {
+        "est": "Sümbol",
+        "eng": "Symbol",
+        "rus": "",
+		"lat": ""
+    },
+    "weight": {
+        "est": "Aatomi mass (u)",
+        "eng": "Atomic mass (u)",
         "rus": "",
 		"lat": ""
     }
