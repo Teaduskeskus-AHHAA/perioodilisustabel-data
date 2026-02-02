@@ -1,0 +1,62 @@
+{
+    "Actinoid": {
+        "est": "",
+        "eng": "Actinoid",
+        "rus": "",
+		"lat": ""
+    },
+    "Alkali": {
+        "est": "",
+        "eng": "Alkali",
+        "rus": "",
+		"lat": ""
+    },
+    "Alkaline": {
+        "est": "",
+        "eng": "Alkaline",
+        "rus": "",
+		"lat": ""
+    },
+    "Lanthanoid": {
+        "est": "",
+        "eng": "Lanthanoid",
+        "rus": "",
+		"lat": ""
+    },
+    "Metalloid": {
+        "est": "",
+        "eng": "Metalloid",
+        "rus": "",
+		"lat": ""
+    },
+    "Noble": {
+        "est": "",
+        "eng": "Noble",
+        "rus": "",
+		"lat": ""
+    },
+    "Nonmetal": {
+        "est": "",
+        "eng": "Nonmetal",
+        "rus": "",
+		"lat": ""
+    },
+    "Poor": {
+        "est": "",
+        "eng": "Poor",
+        "rus": "",
+		"lat": ""
+    },
+    "Transition": {
+        "est": "",
+        "eng": "Transition",
+        "rus": "",
+		"lat": ""
+    },
+    null : {
+        "est": "Teadmata",
+        "eng": "Unknown",
+        "rus": "",
+		"lat": ""
+    }
+}
