@@ -1,5 +1,5 @@
 json failide nimekiri ja lühike selgitus:
-* **data-en**: algne fail ptable.com lehelt.
+* **data-en**: algne fail ptable.com lehelt. Ära seda näpi, las jääb referentsiks nii nagu on.
 * **elements-data**: fail iga elemendi kohta käiva infoga. Vähendatud variant **data-en** failist, jätsin alles väljad, mis kannavad minu meelest (Üllar) huvitavat infot. Vb ka kõiki praeguseid ei hakka lõpuks näitama...
 * **fieldnames**: infoväljade nimetused eri keeltes - peavad vastama **elements-data** väljanimedele. Siin failis peaks olema need väljad, mis infokastis üksiku elemendi peale klikates nähtavale tulevad. Mõni **elements-data** väli võib siit ka puudu olla - siis seda infovälja ei näidatagi.
 * **names**: elementide nimed eri keeltes.
