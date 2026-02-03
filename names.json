@@ -1,14 +1,946 @@
-{
-    "H": {
-        "est": "Vesinik",
-        "eng": "Hydrogen",
-        "rus": "",
-		"lat": ""
-    },
-    "He": {
-        "est": "Heelium",
-        "eng": "Helium",
-        "rus": "",
-		"lat": ""
-    }
-}
+[
+  {
+    "atomic": 1,
+    "symbol": "H",
+    "est": "Vesinik",
+    "eng": "Hydrogen",
+    "rus": "Водород",
+    "lat": "Ūdeņradis"
+  },
+  {
+    "atomic": 2,
+    "symbol": "He",
+    "est": "Heelium",
+    "eng": "Helium",
+    "rus": "Гелий",
+    "lat": "Hēlijs"
+  },
+  {
+    "atomic": 3,
+    "symbol": "Li",
+    "est": "Liitium",
+    "eng": "Lithium",
+    "rus": "Литий",
+    "lat": "Litijs"
+  },
+  {
+    "atomic": 4,
+    "symbol": "Be",
+    "est": "Berüllium",
+    "eng": "Beryllium",
+    "rus": "Бериллий",
+    "lat": "Berilijs"
+  },
+  {
+    "atomic": 5,
+    "symbol": "B",
+    "est": "Boor",
+    "eng": "Boron",
+    "rus": "Бор",
+    "lat": "Bors"
+  },
+  {
+    "atomic": 6,
+    "symbol": "C",
+    "est": "Süsinik",
+    "eng": "Carbon",
+    "rus": "Углерод",
+    "lat": "Ogleklis"
+  },
+  {
+    "atomic": 7,
+    "symbol": "N",
+    "est": "Lämmastik",
+    "eng": "Nitrogen",
+    "rus": "Азот",
+    "lat": "Slāpeklis"
+  },
+  {
+    "atomic": 8,
+    "symbol": "O",
+    "est": "Hapnik",
+    "eng": "Oxygen",
+    "rus": "Кислород",
+    "lat": "Skābeklis"
+  },
+  {
+    "atomic": 9,
+    "symbol": "F",
+    "est": "Fluor",
+    "eng": "Fluorine",
+    "rus": "Фтор",
+    "lat": "Fluors"
+  },
+  {
+    "atomic": 10,
+    "symbol": "Ne",
+    "est": "Neoon",
+    "eng": "Neon",
+    "rus": "Неон",
+    "lat": "Neons"
+  },
+  {
+    "atomic": 11,
+    "symbol": "Na",
+    "est": "Naatrium",
+    "eng": "Sodium",
+    "rus": "Натрий",
+    "lat": "Nātrijs"
+  },
+  {
+    "atomic": 12,
+    "symbol": "Mg",
+    "est": "Magneesium",
+    "eng": "Magnesium",
+    "rus": "Магний",
+    "lat": "Magnijs"
+  },
+  {
+    "atomic": 13,
+    "symbol": "Al",
+    "est": "Alumiinium",
+    "eng": "Aluminium",
+    "rus": "Алюминий",
+    "lat": "Alumīnijs"
+  },
+  {
+    "atomic": 14,
+    "symbol": "Si",
+    "est": "Räni",
+    "eng": "Silicon",
+    "rus": "Кремний",
+    "lat": "Silīcijs"
+  },
+  {
+    "atomic": 15,
+    "symbol": "P",
+    "est": "Fosfor",
+    "eng": "Phosphorus",
+    "rus": "Фосфор",
+    "lat": "Fosfors"
+  },
+  {
+    "atomic": 16,
+    "symbol": "S",
+    "est": "Väävel",
+    "eng": "Sulfur",
+    "rus": "Сера",
+    "lat": "Sērs"
+  },
+  {
+    "atomic": 17,
+    "symbol": "Cl",
+    "est": "Kloor",
+    "eng": "Chlorine",
+    "rus": "Хлор",
+    "lat": "Hlors"
+  },
+  {
+    "atomic": 18,
+    "symbol": "Ar",
+    "est": "Argoon",
+    "eng": "Argon",
+    "rus": "Аргон",
+    "lat": "Argons"
+  },
+  {
+    "atomic": 19,
+    "symbol": "K",
+    "est": "Kaalium",
+    "eng": "Potassium",
+    "rus": "Калий",
+    "lat": "Kālijs"
+  },
+  {
+    "atomic": 20,
+    "symbol": "Ca",
+    "est": "Kaltsium",
+    "eng": "Calcium",
+    "rus": "Кальций",
+    "lat": "Kalcijs"
+  },
+  {
+    "atomic": 21,
+    "symbol": "Sc",
+    "est": "Skandium",
+    "eng": "Scandium",
+    "rus": "Скандий",
+    "lat": "Skandijs"
+  },
+  {
+    "atomic": 22,
+    "symbol": "Ti",
+    "est": "Titaan",
+    "eng": "Titanium",
+    "rus": "Титан",
+    "lat": "Titāns"
+  },
+  {
+    "atomic": 23,
+    "symbol": "V",
+    "est": "Vanaadium",
+    "eng": "Vanadium",
+    "rus": "Ванадий",
+    "lat": "Vanādijs"
+  },
+  {
+    "atomic": 24,
+    "symbol": "Cr",
+    "est": "Kroom",
+    "eng": "Chromium",
+    "rus": "Хром",
+    "lat": "Hroms"
+  },
+  {
+    "atomic": 25,
+    "symbol": "Mn",
+    "est": "Mangaan",
+    "eng": "Manganese",
+    "rus": "Марганец",
+    "lat": "Mangāns"
+  },
+  {
+    "atomic": 26,
+    "symbol": "Fe",
+    "est": "Raud",
+    "eng": "Iron",
+    "rus": "Железо",
+    "lat": "Dzelzs"
+  },
+  {
+    "atomic": 27,
+    "symbol": "Co",
+    "est": "Koobalt",
+    "eng": "Cobalt",
+    "rus": "Кобальт",
+    "lat": "Kobalts"
+  },
+  {
+    "atomic": 28,
+    "symbol": "Ni",
+    "est": "Nikkel",
+    "eng": "Nickel",
+    "rus": "Никель",
+    "lat": "Niķelis"
+  },
+  {
+    "atomic": 29,
+    "symbol": "Cu",
+    "est": "Vask",
+    "eng": "Copper",
+    "rus": "Медь",
+    "lat": "Varš"
+  },
+  {
+    "atomic": 30,
+    "symbol": "Zn",
+    "est": "Tsink",
+    "eng": "Zinc",
+    "rus": "Цинк",
+    "lat": "Cinks"
+  },
+  {
+    "atomic": 31,
+    "symbol": "Ga",
+    "est": "Gallium",
+    "eng": "Gallium",
+    "rus": "Галлий",
+    "lat": "Gallijs"
+  },
+  {
+    "atomic": 32,
+    "symbol": "Ge",
+    "est": "Germaanium",
+    "eng": "Germanium",
+    "rus": "Германий",
+    "lat": "Germānijs"
+  },
+  {
+    "atomic": 33,
+    "symbol": "As",
+    "est": "Arseen",
+    "eng": "Arsenic",
+    "rus": "Мышьяк",
+    "lat": "Arsēns"
+  },
+  {
+    "atomic": 34,
+    "symbol": "Se",
+    "est": "Seleen",
+    "eng": "Selenium",
+    "rus": "Селен",
+    "lat": "Selēns"
+  },
+  {
+    "atomic": 35,
+    "symbol": "Br",
+    "est": "Broom",
+    "eng": "Bromine",
+    "rus": "Бром",
+    "lat": "Broms"
+  },
+  {
+    "atomic": 36,
+    "symbol": "Kr",
+    "est": "Krüptoon",
+    "eng": "Krypton",
+    "rus": "Криптон",
+    "lat": "Kriptons"
+  },
+  {
+    "atomic": 37,
+    "symbol": "Rb",
+    "est": "Rubiidium",
+    "eng": "Rubidium",
+    "rus": "Рубидий",
+    "lat": "Rubīdijs"
+  },
+  {
+    "atomic": 38,
+    "symbol": "Sr",
+    "est": "Strontsium",
+    "eng": "Strontium",
+    "rus": "Стронций",
+    "lat": "Stroncijs"
+  },
+  {
+    "atomic": 39,
+    "symbol": "Y",
+    "est": "Ütrium",
+    "eng": "Yttrium",
+    "rus": "Иттрий",
+    "lat": "Itrijs"
+  },
+  {
+    "atomic": 40,
+    "symbol": "Zr",
+    "est": "Tsirkoonium",
+    "eng": "Zirconium",
+    "rus": "Цирконий",
+    "lat": "Cirkonijs"
+  },
+  {
+    "atomic": 41,
+    "symbol": "Nb",
+    "est": "Nioobium",
+    "eng": "Niobium",
+    "rus": "Ниобий",
+    "lat": "Niobijs"
+  },
+  {
+    "atomic": 42,
+    "symbol": "Mo",
+    "est": "Molübdeen",
+    "eng": "Molybdenum",
+    "rus": "Молибден",
+    "lat": "Molibdēns"
+  },
+  {
+    "atomic": 43,
+    "symbol": "Tc",
+    "est": "Tehneetsium",
+    "eng": "Technetium",
+    "rus": "Технеций",
+    "lat": "Tehnēcijs"
+  },
+  {
+    "atomic": 44,
+    "symbol": "Ru",
+    "est": "Ruteenium",
+    "eng": "Ruthenium",
+    "rus": "Рутений",
+    "lat": "Rutēnijs"
+  },
+  {
+    "atomic": 45,
+    "symbol": "Rh",
+    "est": "Roodium",
+    "eng": "Rhodium",
+    "rus": "Родий",
+    "lat": "Rodijs"
+  },
+  {
+    "atomic": 46,
+    "symbol": "Pd",
+    "est": "Pallaadium",
+    "eng": "Palladium",
+    "rus": "Палладий",
+    "lat": "Pallādijs"
+  },
+  {
+    "atomic": 47,
+    "symbol": "Ag",
+    "est": "Hõbe",
+    "eng": "Silver",
+    "rus": "Серебро",
+    "lat": "Sudrabs"
+  },
+  {
+    "atomic": 48,
+    "symbol": "Cd",
+    "est": "Kaadmium",
+    "eng": "Cadmium",
+    "rus": "Кадмий",
+    "lat": "Kadmijs"
+  },
+  {
+    "atomic": 49,
+    "symbol": "In",
+    "est": "Indium",
+    "eng": "Indium",
+    "rus": "Индий",
+    "lat": "Indijs"
+  },
+  {
+    "atomic": 50,
+    "symbol": "Sn",
+    "est": "Tina",
+    "eng": "Tin",
+    "rus": "Олово",
+    "lat": "Alva"
+  },
+  {
+    "atomic": 51,
+    "symbol": "Sb",
+    "est": "Antimon",
+    "eng": "Antimony",
+    "rus": "Сурьма",
+    "lat": "Antimons"
+  },
+  {
+    "atomic": 52,
+    "symbol": "Te",
+    "est": "Telluur",
+    "eng": "Tellurium",
+    "rus": "Теллур",
+    "lat": "Telūrs"
+  },
+  {
+    "atomic": 53,
+    "symbol": "I",
+    "est": "Jood",
+    "eng": "Iodine",
+    "rus": "Иод",
+    "lat": "Jods"
+  },
+  {
+    "atomic": 54,
+    "symbol": "Xe",
+    "est": "Ksenoon",
+    "eng": "Xenon",
+    "rus": "Ксенон",
+    "lat": "Ksenons"
+  },
+  {
+    "atomic": 55,
+    "symbol": "Cs",
+    "est": "Tseesium",
+    "eng": "Caesium",
+    "rus": "Цезий",
+    "lat": "Cēzijs"
+  },
+  {
+    "atomic": 56,
+    "symbol": "Ba",
+    "est": "Baarium",
+    "eng": "Barium",
+    "rus": "Барий",
+    "lat": "Bārijs"
+  },
+  {
+    "atomic": 57,
+    "symbol": "La",
+    "est": "Lantaan",
+    "eng": "Lanthanum",
+    "rus": "Лантан",
+    "lat": "Lantāns"
+  },
+  {
+    "atomic": 58,
+    "symbol": "Ce",
+    "est": "Tseerium",
+    "eng": "Cerium",
+    "rus": "Церий",
+    "lat": "Cērijs"
+  },
+  {
+    "atomic": 59,
+    "symbol": "Pr",
+    "est": "Praseodüüm",
+    "eng": "Praseodymium",
+    "rus": "Празеодим",
+    "lat": "Prazeodīms"
+  },
+  {
+    "atomic": 60,
+    "symbol": "Nd",
+    "est": "Neodüüm",
+    "eng": "Neodymium",
+    "rus": "Неодим",
+    "lat": "Neodīms"
+  },
+  {
+    "atomic": 61,
+    "symbol": "Pm",
+    "est": "Promeetium",
+    "eng": "Promethium",
+    "rus": "Прометий",
+    "lat": "Prometijs"
+  },
+  {
+    "atomic": 62,
+    "symbol": "Sm",
+    "est": "Samaarium",
+    "eng": "Samarium",
+    "rus": "Самарий",
+    "lat": "Samārijs"
+  },
+  {
+    "atomic": 63,
+    "symbol": "Eu",
+    "est": "Euroopium",
+    "eng": "Europium",
+    "rus": "Европий",
+    "lat": "Eiropijs"
+  },
+  {
+    "atomic": 64,
+    "symbol": "Gd",
+    "est": "Gadoliinium",
+    "eng": "Gadolinium",
+    "rus": "Гадолиний",
+    "lat": "Gadolīnijs"
+  },
+  {
+    "atomic": 65,
+    "symbol": "Tb",
+    "est": "Terbium",
+    "eng": "Terbium",
+    "rus": "Тербий",
+    "lat": "Terbijs"
+  },
+  {
+    "atomic": 66,
+    "symbol": "Dy",
+    "est": "Düsproosium",
+    "eng": "Dysprosium",
+    "rus": "Диспрозий",
+    "lat": "Disprozijs"
+  },
+  {
+    "atomic": 67,
+    "symbol": "Ho",
+    "est": "Holmium",
+    "eng": "Holmium",
+    "rus": "Гольмий",
+    "lat": "Holmijs"
+  },
+  {
+    "atomic": 68,
+    "symbol": "Er",
+    "est": "Erbium",
+    "eng": "Erbium",
+    "rus": "Эрбий",
+    "lat": "Erbijs"
+  },
+  {
+    "atomic": 69,
+    "symbol": "Tm",
+    "est": "Tuulium",
+    "eng": "Thulium",
+    "rus": "Тулий",
+    "lat": "Tūlijs"
+  },
+  {
+    "atomic": 70,
+    "symbol": "Yb",
+    "est": "Üterbium",
+    "eng": "Ytterbium",
+    "rus": "Иттербий",
+    "lat": "Iterbijs"
+  },
+  {
+    "atomic": 71,
+    "symbol": "Lu",
+    "est": "Luteetsium",
+    "eng": "Lutetium",
+    "rus": "Лютеций",
+    "lat": "Lutēcijs"
+  },
+  {
+    "atomic": 72,
+    "symbol": "Hf",
+    "est": "Hafnium",
+    "eng": "Hafnium",
+    "rus": "Гафний",
+    "lat": "Hafnijs"
+  },
+  {
+    "atomic": 73,
+    "symbol": "Ta",
+    "est": "Tantaal",
+    "eng": "Tantalum",
+    "rus": "Тантал",
+    "lat": "Tantals"
+  },
+  {
+    "atomic": 74,
+    "symbol": "W",
+    "est": "Volfram",
+    "eng": "Tungsten",
+    "rus": "Вольфрам",
+    "lat": "Volframs"
+  },
+  {
+    "atomic": 75,
+    "symbol": "Re",
+    "est": "Reenium",
+    "eng": "Rhenium",
+    "rus": "Рений",
+    "lat": "Rēnijs"
+  },
+  {
+    "atomic": 76,
+    "symbol": "Os",
+    "est": "Osmium",
+    "eng": "Osmium",
+    "rus": "Осмий",
+    "lat": "Osmijs"
+  },
+  {
+    "atomic": 77,
+    "symbol": "Ir",
+    "est": "Iriidium",
+    "eng": "Iridium",
+    "rus": "Иридий",
+    "lat": "Irīdijs"
+  },
+  {
+    "atomic": 78,
+    "symbol": "Pt",
+    "est": "Plaatina",
+    "eng": "Platinum",
+    "rus": "Платина",
+    "lat": "Platīns"
+  },
+  {
+    "atomic": 79,
+    "symbol": "Au",
+    "est": "Kuld",
+    "eng": "Gold",
+    "rus": "Золото",
+    "lat": "Zelts"
+  },
+  {
+    "atomic": 80,
+    "symbol": "Hg",
+    "est": "Elavhõbe",
+    "eng": "Mercury",
+    "rus": "Ртуть",
+    "lat": "Dzīvsudrabs"
+  },
+  {
+    "atomic": 81,
+    "symbol": "Tl",
+    "est": "Tallium",
+    "eng": "Thallium",
+    "rus": "Таллий",
+    "lat": "Tallijs"
+  },
+  {
+    "atomic": 82,
+    "symbol": "Pb",
+    "est": "Plii",
+    "eng": "Lead",
+    "rus": "Свинец",
+    "lat": "Svins"
+  },
+  {
+    "atomic": 83,
+    "symbol": "Bi",
+    "est": "Vismut",
+    "eng": "Bismuth",
+    "rus": "Висмут",
+    "lat": "Bismuts"
+  },
+  {
+    "atomic": 84,
+    "symbol": "Po",
+    "est": "Poloonium",
+    "eng": "Polonium",
+    "rus": "Полоний",
+    "lat": "Polonijs"
+  },
+  {
+    "atomic": 85,
+    "symbol": "At",
+    "est": "Astaat",
+    "eng": "Astatine",
+    "rus": "Астат",
+    "lat": "Astats"
+  },
+  {
+    "atomic": 86,
+    "symbol": "Rn",
+    "est": "Radoon",
+    "eng": "Radon",
+    "rus": "Радон",
+    "lat": "Radons"
+  },
+  {
+    "atomic": 87,
+    "symbol": "Fr",
+    "est": "Frantsium",
+    "eng": "Francium",
+    "rus": "Франций",
+    "lat": "Francijs"
+  },
+  {
+    "atomic": 88,
+    "symbol": "Ra",
+    "est": "Raadium",
+    "eng": "Radium",
+    "rus": "Радий",
+    "lat": "Rādijs"
+  },
+  {
+    "atomic": 89,
+    "symbol": "Ac",
+    "est": "Aktiinium",
+    "eng": "Actinium",
+    "rus": "Актиний",
+    "lat": "Aktīnijs"
+  },
+  {
+    "atomic": 90,
+    "symbol": "Th",
+    "est": "Toorium",
+    "eng": "Thorium",
+    "rus": "Торий",
+    "lat": "Torijs"
+  },
+  {
+    "atomic": 91,
+    "symbol": "Pa",
+    "est": "Protaktiinium",
+    "eng": "Protactinium",
+    "rus": "Протактиний",
+    "lat": "Protaktīnijs"
+  },
+  {
+    "atomic": 92,
+    "symbol": "U",
+    "est": "Uraan",
+    "eng": "Uranium",
+    "rus": "Уран",
+    "lat": "Urāns"
+  },
+  {
+    "atomic": 93,
+    "symbol": "Np",
+    "est": "Neptuunium",
+    "eng": "Neptunium",
+    "rus": "Нептуний",
+    "lat": "Neptūnijs"
+  },
+  {
+    "atomic": 94,
+    "symbol": "Pu",
+    "est": "Plutoonium",
+    "eng": "Plutonium",
+    "rus": "Плутоний",
+    "lat": "Plutonijs"
+  },
+  {
+    "atomic": 95,
+    "symbol": "Am",
+    "est": "Ameriitsium",
+    "eng": "Americium",
+    "rus": "Америций",
+    "lat": "Amerīcijs"
+  },
+  {
+    "atomic": 96,
+    "symbol": "Cm",
+    "est": "Kuurium",
+    "eng": "Curium",
+    "rus": "Кюрий",
+    "lat": "Kirijs"
+  },
+  {
+    "atomic": 97,
+    "symbol": "Bk",
+    "est": "Berkeelium",
+    "eng": "Berkelium",
+    "rus": "Берклий",
+    "lat": "Berklijs"
+  },
+  {
+    "atomic": 98,
+    "symbol": "Cf",
+    "est": "Kalifornium",
+    "eng": "Californium",
+    "rus": "Калифорний",
+    "lat": "Kalifornijs"
+  },
+  {
+    "atomic": 99,
+    "symbol": "Es",
+    "est": "Einsteinium",
+    "eng": "Einsteinium",
+    "rus": "Эйнштейний",
+    "lat": "Einšteinijs"
+  },
+  {
+    "atomic": 100,
+    "symbol": "Fm",
+    "est": "Fermium",
+    "eng": "Fermium",
+    "rus": "Фермий",
+    "lat": "Fermijs"
+  },
+  {
+    "atomic": 101,
+    "symbol": "Md",
+    "est": "Mendeleevium",
+    "eng": "Mendelevium",
+    "rus": "Менделевий",
+    "lat": "Mendeļejevijs"
+  },
+  {
+    "atomic": 102,
+    "symbol": "No",
+    "est": "Nobeelium",
+    "eng": "Nobelium",
+    "rus": "Нобелий",
+    "lat": "Nobēlijs"
+  },
+  {
+    "atomic": 103,
+    "symbol": "Lr",
+    "est": "Lavrentsium",
+    "eng": "Lawrencium",
+    "rus": "Лоуренсий",
+    "lat": "Lourensijs"
+  },
+  {
+    "atomic": 104,
+    "symbol": "Rf",
+    "est": "Rutherfordium",
+    "eng": "Rutherfordium",
+    "rus": "Резерфордий",
+    "lat": "Rezerfordijs"
+  },
+  {
+    "atomic": 105,
+    "symbol": "Db",
+    "est": "Dubnium",
+    "eng": "Dubnium",
+    "rus": "Дубний",
+    "lat": "Dubnijs"
+  },
+  {
+    "atomic": 106,
+    "symbol": "Sg",
+    "est": "Seaborgium",
+    "eng": "Seaborgium",
+    "rus": "Сиборгий",
+    "lat": "Sībordžijs"
+  },
+  {
+    "atomic": 107,
+    "symbol": "Bh",
+    "est": "Bohrium",
+    "eng": "Bohrium",
+    "rus": "Борий",
+    "lat": "Borijs"
+  },
+  {
+    "atomic": 108,
+    "symbol": "Hs",
+    "est": "Hassium",
+    "eng": "Hassium",
+    "rus": "Хассий",
+    "lat": "Hasijs"
+  },
+  {
+    "atomic": 109,
+    "symbol": "Mt",
+    "est": "Meitneerium",
+    "eng": "Meitnerium",
+    "rus": "Мейтнерий",
+    "lat": "Meitnerijs"
+  },
+  {
+    "atomic": 110,
+    "symbol": "Ds",
+    "est": "Darmstadtium",
+    "eng": "Darmstadtium",
+    "rus": "Дармштадтий",
+    "lat": "Darmštatijs"
+  },
+  {
+    "atomic": 111,
+    "symbol": "Rg",
+    "est": "Röntgeenium",
+    "eng": "Roentgenium",
+    "rus": "Рентгений",
+    "lat": "Rentgenijs"
+  },
+  {
+    "atomic": 112,
+    "symbol": "Cn",
+    "est": "Koperniikium",
+    "eng": "Copernicium",
+    "rus": "Коперниций",
+    "lat": "Kopernikijs"
+  },
+  {
+    "atomic": 113,
+    "symbol": "Nh",
+    "est": "Nihoonium",
+    "eng": "Nihonium",
+    "rus": "Нихоний",
+    "lat": "Nihonijs"
+  },
+  {
+    "atomic": 114,
+    "symbol": "Fl",
+    "est": "Fleroovium",
+    "eng": "Flerovium",
+    "rus": "Флеровий",
+    "lat": "Flerovijs"
+  },
+  {
+    "atomic": 115,
+    "symbol": "Mc",
+    "est": "Moskoovium",
+    "eng": "Moscovium",
+    "rus": "Московий",
+    "lat": "Moskovijs"
+  },
+  {
+    "atomic": 116,
+    "symbol": "Lv",
+    "est": "Livermoorium",
+    "eng": "Livermorium",
+    "rus": "Ливерморий",
+    "lat": "Livermorijs"
+  },
+  {
+    "atomic": 117,
+    "symbol": "Ts",
+    "est": "Tennessiin",
+    "eng": "Tennessine",
+    "rus": "Теннессин",
+    "lat": "Tenesīns"
+  },
+  {
+    "atomic": 118,
+    "symbol": "Og",
+    "est": "Oganessoon",
+    "eng": "Oganesson",
+    "rus": "Оганесон",
+    "lat": "Oganesons"
+  }
+]

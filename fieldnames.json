@@ -1,20 +1,72 @@
-{
-    "atomic": {
+[
+    {
+        "field": "atomic",
         "est": "Aatomnumber",
         "eng": "Atomic number",
         "rus": "",
 		"lat": ""
     },
-    "symbol": {
+    {
+        "field": "symbol",
         "est": "Sümbol",
         "eng": "Symbol",
         "rus": "",
 		"lat": ""
     },
-    "weight": {
+    {
+        "field": "weight",
         "est": "Aatomi mass (u)",
         "eng": "Atomic mass (u)",
         "rus": "",
 		"lat": ""
+    },
+    {
+        "field": "series",
+        "est": "Rühm",
+        "eng": "Series",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "melt",
+        "est": "Sulamistemperatuur (K)",
+        "eng": "Melting point (K)",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "boil",
+        "est": "Keemistemperatuur (K)",
+        "eng": "Boiling point (K)",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "radius_calculated",
+        "est": "Aatomi raadius (pm)",
+        "eng": "Atomic radius (pm)",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "discovered",
+        "est": "Avastamisaeg",
+        "eng": "Discovery time",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "density_stp",
+        "est": "Tihedus (kg/m³)",
+        "eng": "Density (kg/m³)",
+        "rus": "",
+		"lat": ""
+    },
+    {
+        "field": "hardness_mohs",
+        "est": "Kõvadus (MPa)",
+        "eng": "Hardness (MPa)",
+        "rus": "",
+		"lat": ""
     }
-}
+]

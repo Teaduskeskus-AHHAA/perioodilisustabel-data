@@ -1,62 +1,72 @@
-{
-    "Actinoid": {
-        "est": "",
+[
+    {
+        "series": "Actinoid",
+        "est": "Aktinoid",
         "eng": "Actinoid",
         "rus": "",
 		"lat": ""
     },
-    "Alkali": {
-        "est": "",
+    {
+        "series": "Alkali",
+        "est": "Leelismetall",
         "eng": "Alkali",
         "rus": "",
 		"lat": ""
     },
-    "Alkaline": {
-        "est": "",
+    {
+        "series": "Alkaline",
+        "est": "Leelismuldmetall",
         "eng": "Alkaline",
         "rus": "",
 		"lat": ""
     },
-    "Lanthanoid": {
-        "est": "",
+    {
+        "series": "Lanthanoid",
+        "est": "Lantanoid",
         "eng": "Lanthanoid",
         "rus": "",
 		"lat": ""
     },
-    "Metalloid": {
+    {
+        "series": "Metalloid",
         "est": "",
         "eng": "Metalloid",
         "rus": "",
 		"lat": ""
     },
-    "Noble": {
-        "est": "",
-        "eng": "Noble",
+    {
+        "series": "Noble",
+        "est": "Väärisgaas",
+        "eng": "Noble gas",
         "rus": "",
 		"lat": ""
     },
-    "Nonmetal": {
-        "est": "",
+    {
+        "series": "Nonmetal",
+        "est": "Mittemetall",
         "eng": "Nonmetal",
         "rus": "",
 		"lat": ""
     },
-    "Poor": {
+    {
+        "series": "Poor",
         "est": "",
         "eng": "Poor",
         "rus": "",
 		"lat": ""
     },
-    "Transition": {
-        "est": "",
-        "eng": "Transition",
+    {
+        "series": "Transition",
+        "est": "Siirdemetall",
+        "eng": "Transition metal",
         "rus": "",
 		"lat": ""
     },
-    null : {
+    {
+        "series": "Unknown",
         "est": "Teadmata",
         "eng": "Unknown",
         "rus": "",
 		"lat": ""
     }
-}
+]
