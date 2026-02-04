@@ -66,17 +66,6 @@
         let response = await fetch('https://raw.githubusercontent.com/Teaduskeskus-AHHAA/perioodilisustabel-data/refs/heads/main/elements-data.json');
         elements = await response.json();
     }
-    /*[
-      { "atomic": 1,   "symbol": "H",  "melt":   14.01, "boil":   20.28, },
-      { "atomic": 2,   "symbol": "He", "melt": null,    "boil":    4.22, },
-      { "atomic": 3,   "symbol": "Li", "melt":  453.69, "boil": 1615,    },
-      { "atomic": 4,   "symbol": "Be", "melt": 1560,    "boil": 2743,    },
-      { "atomic": 5,   "symbol": "B",  "melt": 2348,    "boil": 4273,    },
-      { "atomic": 6,   "symbol": "C",  "melt": 3915,    "boil": 3915,    },
-      { "atomic": 103, "symbol": "Lr", "melt": 1900,    "boil": null,    },
-      { "atomic": 104, "symbol": "Rf", "melt": null,    "boil": null,    }
-    ]*/
-
 
     function temp_K_from_scale(x) { // x vahemikus 0-1
         x = x-0.30668;
@@ -119,4 +108,5 @@
 
     init()
 </script>
+
 </html>
