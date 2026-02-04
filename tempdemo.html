@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="et">
+
+<head>
+<meta charset="UTF-8">
+<title>Temperatuuri demo</title>
+
+<style>
+    :root {
+        color: white;
+    }
+
+    .element {
+        width: 60px;
+        height: 60px;
+        padding: 20px;
+        margin: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        border: 1px solid #888;
+        border-radius: 20px;
+    }
+
+    .solid   { background-color: #444; }
+    .liquid  { background-color: #248; }
+    .gas     { background-color: #842; }
+    .unknown { background-color: transparent; }
+
+    .statelabel {
+        width: 70px;
+        padding: 2px;
+        display: inline-block;
+        text-align: center;
+        border: 1px solid #888;
+        border-radius: 5px;
+    }
+
+</style>
+</head>
+
+<body style="background-color: black; display: flex; align-items: center; justify-content: center;">
+
+    <div style="text-align: center;">
+        <div style="border: 1px solid #444; border-radius: 10px; padding: 5px 10px; margin: 5px 0;">
+            Temperatuur: <span id="temp_C" style="display: inline-block; width: 60px; text-align: right;"></span>°C,&emsp;rõhk:&ensp;1 atm
+            <input type="range" id="temp_slider" min="0" max="1" step="0.0001" style="width: 100%;" oninput="update_temp(Number(this.value))" />
+        </div>
+
+        <nobr>Aine olek:
+            <span class="statelabel solid">tahke</span>
+            <span class="statelabel liquid">vedel</span>
+            <span class="statelabel gas">gaas</span>
+            <span class="statelabel unknown">teadmata</span>
+        </nobr>
+        
+        <div id="elements_table" style="display: flex; flex-wrap: wrap;"></div>
+    </div>
+
+</body>
+
+<script>
+    const elements = [
+      { "atomic": 1,   "symbol": "H",  "melt":   14.01, "boil":   20.28, },
+      { "atomic": 2,   "symbol": "He", "melt": null,    "boil":    4.22, },
+      { "atomic": 3,   "symbol": "Li", "melt":  453.69, "boil": 1615,    },
+      { "atomic": 4,   "symbol": "Be", "melt": 1560,    "boil": 2743,    },
+      { "atomic": 5,   "symbol": "B",  "melt": 2348,    "boil": 4273,    },
+      { "atomic": 6,   "symbol": "C",  "melt": 3915,    "boil": 3915,    },
+      { "atomic": 103, "symbol": "Lr", "melt": 1900,    "boil": null,    },
+      { "atomic": 104, "symbol": "Rf", "melt": null,    "boil": null,    }
+    ]
+
+
+    function temp_K_from_scale(x) { // x vahemikus 0-1
+        x = x-0.30668;
+        return 72164*x**7 - 10.724*x**2 + 701.67*x + 234.61;
+    }
+
+    function temp_K_to_C(t) {   // t >= 0
+        return t-273.15;
+    }
+
+    function element_state(t_K, element) {
+        if      (element.melt == null && element.boil == null)  { return 'unknown'; }
+        else if (element.melt == null)                          { return t_K > element.boil ? 'gas' : 'liquid'; }
+        else if (element.boil == null)                          { return t_K > element.melt ? 'unknown' : 'solid'; }
+        else                                                    { return t_K > element.melt ? (t_K > element.boil ? 'gas' : 'liquid') : 'solid'; }
+    }
+
+    function update_temp(x) {
+        const t_k = temp_K_from_scale(x),
+              t_c = t_k < 0.2 ? Math.round(100*temp_K_to_C(t_k))/100 : Math.round(temp_K_to_C(t_k));
+        document.getElementById('temp_C').innerHTML = t_c < 0 ? '−'+(-t_c) : t_c > 0 ? '+'+t_c : t_c;
+
+        for (const e of elements) {
+            document.getElementById('element_'+e.symbol).className = 'element '+element_state(t_k, e);
+        }
+    }
+
+    function init() {
+
+        let htmlstr='';
+        for (const e of elements) {
+            htmlstr += `<div id="element_${e.symbol}" class="element"><div>${e.atomic}<br><span style="font-size: xx-large">${e.symbol}</span></div></div>`;
+        }
+        document.getElementById('elements_table').innerHTML = htmlstr;
+
+        document.getElementById('temp_slider').value = 0.3;
+        update_temp(0.3);
+    }
+
+    init()
+</script>
+</html>
