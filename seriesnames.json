@@ -3,70 +3,66 @@
         "series": "Actinoid",
         "est": "Aktinoid",
         "eng": "Actinoid",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Alkali",
         "est": "Leelismetall",
         "eng": "Alkali",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Alkaline",
         "est": "Leelismuldmetall",
         "eng": "Alkaline",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Lanthanoid",
         "est": "Lantanoid",
         "eng": "Lanthanoid",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Metalloid",
-        "est": "",
+        "est": "Poolmetall",
         "eng": "Metalloid",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Noble",
         "est": "Väärisgaas",
         "eng": "Noble gas",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Nonmetal",
         "est": "Mittemetall",
         "eng": "Nonmetal",
-        "rus": "",
+		"lat": ""
+    },
+    {
+        "series": "Halogen",
+        "est": "Halogeen",
+        "eng": "Halogen",
 		"lat": ""
     },
     {
         "series": "Poor",
-        "est": "",
-        "eng": "Poor",
-        "rus": "",
+        "est": "p-metall",
+        "eng": "Post-transition metal",
 		"lat": ""
     },
     {
         "series": "Transition",
         "est": "Siirdemetall",
         "eng": "Transition metal",
-        "rus": "",
 		"lat": ""
     },
     {
         "series": "Unknown",
         "est": "Teadmata",
         "eng": "Unknown",
-        "rus": "",
 		"lat": ""
     }
 ]

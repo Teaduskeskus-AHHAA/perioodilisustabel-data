@@ -3,70 +3,66 @@
         "field": "atomic",
         "est": "Aatomnumber",
         "eng": "Atomic number",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "symbol",
         "est": "Sümbol",
         "eng": "Symbol",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "weight",
         "est": "Aatomi mass (u)",
         "eng": "Atomic mass (u)",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "series",
         "est": "Rühm",
         "eng": "Series",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "melt",
-        "est": "Sulamistemperatuur (K)",
-        "eng": "Melting point (K)",
-        "rus": "",
+        "est": "Sulamispunkt",
+        "eng": "Melting point",
 		"lat": ""
     },
     {
         "field": "boil",
-        "est": "Keemistemperatuur (K)",
-        "eng": "Boiling point (K)",
-        "rus": "",
+        "est": "Keemispunkt",
+        "eng": "Boiling point",
+		"lat": ""
+    },
+    {
+        "field": "electroneg",
+        "est": "Elektronegatiivsus",
+        "eng": "Electronegativity",
 		"lat": ""
     },
     {
         "field": "radius_calculated",
         "est": "Aatomi raadius (pm)",
         "eng": "Atomic radius (pm)",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "discovered",
         "est": "Avastamisaeg",
         "eng": "Discovery time",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "density_stp",
         "est": "Tihedus (kg/m³)",
         "eng": "Density (kg/m³)",
-        "rus": "",
 		"lat": ""
     },
     {
         "field": "hardness_mohs",
         "est": "Kõvadus (MPa)",
         "eng": "Hardness (MPa)",
-        "rus": "",
 		"lat": ""
     }
 ]
