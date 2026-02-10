@@ -67,9 +67,9 @@
         elements = await response.json();
     }
 
+
     function temp_K_from_scale(x) { // x vahemikus 0-1
-        x = x-0.30668;
-        return 72164*x**7 - 10.724*x**2 + 701.67*x + 234.61;
+        return -330230170*x**5/9261 + 735211307*x**4/9261 - 4306145383*x**3/92610 + 168571541*x**2/20580 + 850*x;
     }
 
     function temp_K_to_C(t) {   // t >= 0
@@ -102,11 +102,10 @@
         }
         document.getElementById('elements_table').innerHTML = htmlstr;
 
-        document.getElementById('temp_slider').value = 0.39;
-        update_temp(0.39);
+        document.getElementById('temp_slider').value = 0.3;
+        update_temp(0.3);
     }
 
     init()
 </script>
-
 </html>
