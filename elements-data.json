@@ -1,5 +1,13 @@
 [
   {
+    "symbol":"Aktinoidid",
+    "series":["Actinoid"]
+  },
+  {
+    "symbol":"Lantanoidid",
+    "series":["Lanthanoid"]
+  },
+  {
     "atomic": 1,
     "symbol": "H",
     "weight": 1.008,
