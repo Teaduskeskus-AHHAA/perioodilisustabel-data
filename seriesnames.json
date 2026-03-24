@@ -3,66 +3,66 @@
         "series": "Actinoid",
         "est": "Aktinoid",
         "eng": "Actinoid",
-		"lat": ""
+        "lat": "Aktinīds"
     },
     {
         "series": "Alkali",
         "est": "Leelismetall",
         "eng": "Alkali",
-		"lat": ""
+        "lat": "Sārmu metāls"
     },
     {
         "series": "Alkaline",
         "est": "Leelismuldmetall",
         "eng": "Alkaline",
-		"lat": ""
+        "lat": "Sārmzemju metāls"
     },
     {
         "series": "Lanthanoid",
         "est": "Lantanoid",
         "eng": "Lanthanoid",
-		"lat": ""
+        "lat": "Lantanīds"
     },
     {
         "series": "Metalloid",
         "est": "Poolmetall",
         "eng": "Metalloid",
-		"lat": ""
+        "lat": "Pusmetāls"
     },
     {
         "series": "Noble",
         "est": "Väärisgaas",
         "eng": "Noble gas",
-		"lat": ""
+        "lat": "Inertā gāze"
     },
     {
         "series": "Nonmetal",
         "est": "Mittemetall",
         "eng": "Nonmetal",
-		"lat": ""
+        "lat": "Nemetāls"
     },
     {
         "series": "Halogen",
         "est": "Halogeen",
         "eng": "Halogen",
-		"lat": ""
+        "lat": "Halogēns"
     },
     {
         "series": "Poor",
         "est": "p-metall",
         "eng": "Post-transition metal",
-		"lat": ""
+        "lat": "Cits metāls"
     },
     {
         "series": "Transition",
         "est": "Siirdemetall",
         "eng": "Transition metal",
-		"lat": ""
+        "lat": "Pārejas metāls"
     },
     {
         "series": "Unknown",
         "est": "Teadmata",
         "eng": "Unknown",
-		"lat": ""
+        "lat": "Nezināms"
     }
 ]
